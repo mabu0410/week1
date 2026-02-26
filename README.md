@@ -5,77 +5,57 @@ Thành thạo cú pháp cơ bản và OOP trong Java.
 
 ---
 
-## ☑ Sử dụng Git
-
-- [x] Cài đặt Git và cấu hình `user.name`, `user.email`
-- [x] Khởi tạo repository mới cho project Java
-- [x] Thêm file `.gitignore` phù hợp cho Java/Spring Boot
-- [x] Sửa file và commit đẩy lên repository
-- [x] Xem lịch sử commit bằng `git log`
-- [x] Clone repository về folder khác
-- [x] Tạo branch `feature-login`
-- [x] Tạo branch `feature-register`
-- [x] Cố tình tạo conflict và xử lý conflict
-- [x] Tạo Pull Request trên GitHub
-- [x] Sử dụng `git stash` khi đang code dở
-- [x] Thực hành `git reset --soft`
-- [x] Thực hành `git reset --hard`
-- [x] Thực hành `git cherry-pick`
-
----
-
 ## ☑ Tổng quan Java
 
-JDK, JVM, kiểu dữ liệu, biến, toán tử, cấu trúc chương trình.
-
-- [ ] Viết chương trình nhập 2 số nguyên, in ra tổng, hiệu, tích, thương
-- [ ] Viết chương trình tính chu vi và diện tích hình tròn
+| Đề bài | Code |
+|------|------|
+Viết chương trình nhập 2 số nguyên, in ra tổng, hiệu, tích, thương | [Calculator.java](src/practice/basic/Calculator.java) |
+Viết chương trình tính chu vi và diện tích hình tròn | [Circle.java](src/main/java/practice/basic/Circle.java) |
 
 ---
 
 ## ☑ Điều kiện & Vòng lặp
 
-`if`, `switch`, `for`, `while`, `do-while`
-
-- [ ] Viết chương trình kiểm tra số chẵn/lẻ, chia hết cho 3 hay không
-- [ ] In bảng cửu chương từ 2 đến 9 bằng vòng lặp `for`
+| Đề bài | Code                                                                                       |
+|------|--------------------------------------------------------------------------------------------|
+Kiểm tra số chẵn/lẻ, chia hết cho 3 hay không | [CheckNumber.java](src/practice/condition_loop/CheckNumber.java)                           |
+In bảng cửu chương từ 2 → 9 | [MultiplicationTable.java](src/practice/condition_loop/MultiplicationTable.java) |
 
 ---
 
 ## ☑ OOP – Class/Object
 
-Class, Object, Constructor, Method, Access Modifier
-
-- [ ] Tạo class `Student` (name, age, score)
-- [ ] Tạo 3 object và in ra thông tin
-- [ ] Viết hàm tính điểm trung bình của danh sách sinh viên
+| Đề bài | Code |
+|------|------|
+Tạo class Student (name, age, score) | [Student.java](src/practice/oop/Student.java) |
+Tạo 3 object và in thông tin | [StudentTest.java](src/practice/oop/StudentTest.java) |
+Tính điểm trung bình danh sách sinh viên | [Student.java](src/practice/oop/Student.java) |
 
 ---
 
 ## ☑ OOP – Inheritance & Abstraction
 
-Kế thừa, `abstract class`, `interface`, `override`
-
-- [ ] Tạo class `Shape` (abstract)
-- [ ] Tạo 2 class `Circle` và `Rectangle`, override phương thức `getArea()`
-- [ ] Tạo interface `Playable`, class `MusicPlayer` implement và in ra `"Playing music..."`
-
----
-
-## ☑ OOP – Polymorphism & Exception
-
-Overloading, Exception, `try-catch-finally`, `throws`
-
-- [ ] Viết chương trình chia 2 số, xử lý ngoại lệ chia cho 0
-- [ ] Đọc file text chứa danh sách tên, in ra từng tên một
+| Đề bài | Code                                                            |
+|------|-----------------------------------------------------------------|
+Viết class Shape (abstract) | [Shape.java](src/practice/oop/Shape.java)             |
+ 2 lớp con Circle và Rectangle, override phương thức getArea().| [Circle.java](src/practice/oop/Circle.java), [Rectangle.java](src/practice/oop/Rectangle.java) ||
+Tạo interface Playable | [Playable.java](src/practice/oop/Playable.java)       |
+ lớp MusicPlayer implement và in ra "Playing music..." | [MusicPlayer.java](src/practice/oop/MusicPlayer.java) |
 
 ---
 
-## 📌 Ghi chú
-- Hoàn thành từng mục và tick vào ô `[x]` khi xong.
-- Thực hành Git song song với code Java để quen workflow thực tế.
+## ☑ Exception
+
+| Đề bài | Code                                                                                                            |
+|------|-----------------------------------------------------------------------------------------------------------------|
+Chia 2 số xử lý chia cho 0 | [DivideException.java](src/practice/exception/DivideException.java)                                   |
+Đọc file text danh sách tên | [ReadNames.java](src/practice/file/ReadNames.java), [names.txt](src/practice/file/names.txt) |
 
 ---
 
-🚀 **Mục tiêu cuối tuần:**  
-Hiểu Git cơ bản + nắm vững nền tảng Java OOP.
+## 🚀 Progress
+✔ Git cơ bản  
+✔ Java core  
+✔ OOP nền tảng  
+✔ Exception handling
+
