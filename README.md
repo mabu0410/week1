@@ -3,51 +3,19 @@
 ## 🎯 Mục tiêu
 Thành thạo cú pháp cơ bản và OOP trong Java.
 
----
-
-## ☑ Tổng quan Java
-
 | Đề bài | Code |
-|------|------|
+|-----|------|
 Viết chương trình nhập 2 số nguyên, in ra tổng, hiệu, tích, thương | [Calculator.java](src/practice/basic/Calculator.java) |
-Viết chương trình tính chu vi và diện tích hình tròn | [Circle.java](src/main/java/practice/basic/Circle.java) |
-
----
-
-## ☑ Điều kiện & Vòng lặp
-
-| Đề bài | Code                                                                                       |
-|------|--------------------------------------------------------------------------------------------|
+Viết chương trình tính chu vi và diện tích hình tròn | [Circle.java](src/main/java/practice/basic/Circle.java) ||
 Kiểm tra số chẵn/lẻ, chia hết cho 3 hay không | [CheckNumber.java](src/practice/condition_loop/CheckNumber.java)                           |
-In bảng cửu chương từ 2 → 9 | [MultiplicationTable.java](src/practice/condition_loop/MultiplicationTable.java) |
-
----
-
-## ☑ OOP – Class/Object
-
-| Đề bài | Code |
-|------|------|
+In bảng cửu chương từ 2 → 9 | [MultiplicationTable.java](src/practice/condition_loop/MultiplicationTable.java) ||
 Tạo class Student (name, age, score) | [Student.java](src/practice/oop/Student.java) |
 Tạo 3 object và in thông tin | [StudentTest.java](src/practice/oop/StudentTest.java) |
-Tính điểm trung bình danh sách sinh viên | [Student.java](src/practice/oop/Student.java) |
-
----
-
-## ☑ OOP – Inheritance & Abstraction
-
-| Đề bài | Code                                                            |
-|------|-----------------------------------------------------------------|
+Tính điểm trung bình danh sách sinh viên | [Student.java](src/practice/oop/Student.java) ||
 Viết class Shape (abstract) | [Shape.java](src/practice/oop/Shape.java)             |
  2 lớp con Circle và Rectangle, override phương thức getArea().| [Circle.java](src/practice/oop/Circle.java), [Rectangle.java](src/practice/oop/Rectangle.java) ||
 Tạo interface Playable | [Playable.java](src/practice/oop/Playable.java)       |
- lớp MusicPlayer implement và in ra "Playing music..." | [MusicPlayer.java](src/practice/oop/MusicPlayer.java) |
-
----
-
-## ☑ Exception
-
-| Đề bài | Code                                                                                                            |
-|------|-----------------------------------------------------------------------------------------------------------------|
+ lớp MusicPlayer implement và in ra "Playing music..." | [MusicPlayer.java](src/practice/oop/MusicPlayer.java) ||
 Chia 2 số xử lý chia cho 0 | [DivideException.java](src/practice/exception/DivideException.java)                                   |
 Đọc file text danh sách tên | [ReadNames.java](src/practice/file/ReadNames.java), [names.txt](src/practice/file/names.txt) |
 
