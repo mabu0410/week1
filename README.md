@@ -7,20 +7,20 @@ Thành thạo cú pháp cơ bản và OOP trong Java.
 
 ## ☑ Sử dụng Git
 
-- [ ] Cài đặt Git và cấu hình `user.name`, `user.email`
-- [ ] Khởi tạo repository mới cho project Java
-- [ ] Thêm file `.gitignore` phù hợp cho Java/Spring Boot
-- [ ] Sửa file và commit đẩy lên repository
-- [ ] Xem lịch sử commit bằng `git log`
-- [ ] Clone repository về folder khác
-- [ ] Tạo branch `feature-login`
-- [ ] Tạo branch `feature-register`
-- [ ] Cố tình tạo conflict và xử lý conflict
-- [ ] Tạo Pull Request trên GitHub
-- [ ] Sử dụng `git stash` khi đang code dở
-- [ ] Thực hành `git reset --soft`
-- [ ] Thực hành `git reset --hard`
-- [ ] Thực hành `git cherry-pick`
+- [x] Cài đặt Git và cấu hình `user.name`, `user.email`
+- [x] Khởi tạo repository mới cho project Java
+- [x] Thêm file `.gitignore` phù hợp cho Java/Spring Boot
+- [x] Sửa file và commit đẩy lên repository
+- [x] Xem lịch sử commit bằng `git log`
+- [x] Clone repository về folder khác
+- [x] Tạo branch `feature-login`
+- [x] Tạo branch `feature-register`
+- [x] Cố tình tạo conflict và xử lý conflict
+- [x] Tạo Pull Request trên GitHub
+- [x] Sử dụng `git stash` khi đang code dở
+- [x] Thực hành `git reset --soft`
+- [x] Thực hành `git reset --hard`
+- [x] Thực hành `git cherry-pick`
 
 ---
 
