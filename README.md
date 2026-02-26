@@ -71,11 +71,4 @@ Overloading, Exception, `try-catch-finally`, `throws`
 
 ---
 
-## 📌 Ghi chú
-- Hoàn thành từng mục và tick vào ô `[x]` khi xong.
-- Thực hành Git song song với code Java để quen workflow thực tế.
 
----
-
-🚀 **Mục tiêu cuối tuần:**  
-Hiểu Git cơ bản + nắm vững nền tảng Java OOP.
